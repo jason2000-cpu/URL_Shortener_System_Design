@@ -175,6 +175,7 @@ A typical short url takes this format: https://ts.bv/qp37hi. Ts.bv -represents a
 
 
 
+
 1. Service receives a short URL GET request like https://meliora/as7du98
 2. Service checks if the token exists in the database. If it doesn’t exist, then a **HTTP 404** not found is given as a response.
 3. For an existing token the corresponding entry is given. A response status of **HTTP 498** is returned for an expired token
